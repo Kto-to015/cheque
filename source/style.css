@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat-Light';
+}
+
+header {
+  background: rgb(0, 123, 245);
+  height: 80px;
+  margin-bottom: 30px;
+}
+.head-block {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  line-height: 80px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.menu a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(252, 252, 1);
+  border: 1px;
+  border-radius: 5px;
+}
+.menu a:hover {
+  text-decoration: none;
+  color: rgb(252, 168, 1);
+  border: dashed 2px rgb(252, 252, 1);
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+  margin-right: -4px;
+}
+
+.paragraf {
+  box-shadow: 0 0 20px 0 #00000036;
+  border-radius: 6px;
+/*   height: 650px; */
+}
+.paragraf {
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.block {
+  margin-left: 15px;
+  margin-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+.chek-text {
+  border-bottom: 1px solid black;
+  line-height: 2em;
+  margin-bottom: 25px;
+}
+.img-reg {
+  width: 256px;
+  height: auto;
+}
+
+@media (max-width: 1280px){
+  * {
+    font-size: 14pt;
+  }
+  .head-block {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .head-block {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .paragraf {
+    width: 800px;
+  }
+}
+@media (max-width: 1080px){
+  * {
+    font-size: 12pt;
+  }
+  .head-block {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .head-block {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .paragraf {
+    width: 500px;
+  }
+}
+@media (max-width: 720px){
+  * {
+    font-size: 8pt;
+  }
+  header {
+  background: rgb(0, 123, 245);
+  height: 60px;
+  margin-bottom: 30px;
+  font-size: 10pt;
+  }
+  .head-block {
+    display: flex;
+    max-width: 300px;
+    line-height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .head-block {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .paragraf {
+    width: 300px;
+  }
+}
